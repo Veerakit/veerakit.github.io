@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+button{
+    background-color: lightslategray;
+    color: azure;
+    font-family: cursive;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(9, 9, 199);
+}
+
+.container button{
+    width: 150px;
+}

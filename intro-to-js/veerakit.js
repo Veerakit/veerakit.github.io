@@ -13,3 +13,22 @@ function askMyName() {
     alert(h1message + ' กู้ได้ทุกอย่างยกเว้นใจเธอ');
     document.getElementById("container").style="background-color: rgb(245, 50, 24)";
  }
+
+ function calAge() {
+    const personAge = prompt("Tell me the truth of your birth.");
+    const currentYear = 2022;
+
+    if(personAge) {
+       const result = (currentYear-personAge);
+       alert("Congratulation, you have survived on this cruel world for "+ result + " years" + "\nPlease keep moving forward");
+    }
+ }
+
+ function loadProfile() {
+   const personName = "Veerakit";
+   const province = "Songkhla";
+    if(province,personName) {
+       document.getElementById("my-name").innerHTML = personName;
+       document.getElementById("my-province").innerHTML = province;
+    }
+ }
